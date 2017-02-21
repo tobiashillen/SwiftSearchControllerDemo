@@ -12,6 +12,8 @@
 		8B7971C71E5C37B900DD3713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7971C51E5C37B900DD3713 /* Main.storyboard */; };
 		8B7971C91E5C37B900DD3713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B7971C81E5C37B900DD3713 /* Assets.xcassets */; };
 		8B7971CC1E5C37B900DD3713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B7971CA1E5C37B900DD3713 /* LaunchScreen.storyboard */; };
+		8B7971D41E5C381600DD3713 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7971D31E5C381600DD3713 /* DemoTableViewController.swift */; };
+		8B7971D61E5C40B700DD3713 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7971D51E5C40B700DD3713 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8B7971C81E5C37B900DD3713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B7971CB1E5C37B900DD3713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B7971CD1E5C37B900DD3713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7971D31E5C381600DD3713 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		8B7971D51E5C40B700DD3713 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8B7971C81E5C37B900DD3713 /* Assets.xcassets */,
 				8B7971CA1E5C37B900DD3713 /* LaunchScreen.storyboard */,
 				8B7971CD1E5C37B900DD3713 /* Info.plist */,
+				8B7971D31E5C381600DD3713 /* DemoTableViewController.swift */,
+				8B7971D51E5C40B700DD3713 /* MyTableViewCell.swift */,
 			);
 			path = SearchControllerDemo;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7971C41E5C37B900DD3713 /* ViewController.swift in Sources */,
+				8B7971D61E5C40B700DD3713 /* MyTableViewCell.swift in Sources */,
 				8B7971C21E5C37B900DD3713 /* AppDelegate.swift in Sources */,
+				8B7971D41E5C381600DD3713 /* DemoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
